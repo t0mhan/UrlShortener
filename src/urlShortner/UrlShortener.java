@@ -40,7 +40,6 @@ public final class UrlShortener {
 		return st;
 	}
      
-	//
 	public static void main(String[] args) throws IOException, JSONException {
 		Scanner inputUrl = new Scanner(System.in);
 		System.out.println("Please Enter Long URL to Shorten: ");
