@@ -19,7 +19,7 @@ import java.util.Scanner;
 public final class UrlShortener {
 
 	public static String shortenUrl(String longUrl) throws IOException, JSONException {
-		OAuthService oAuthService = new ServiceBuilder().apiKey("AIzaSyDQ3xz8TrWB0ebOHasO8z7vGEeqDFbnSY8")
+		OAuthService oAuthService = new ServiceBuilder().apiKey("paste your generated API key here")
 				.apiSecret("anonymous").scope("https://www.googleapis.com/auth/urlshortener")
 				.build(GoogleApi20.instance());
 		OAuthRequest oAuthRequest = new OAuthRequest(Verb.POST,
